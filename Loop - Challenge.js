@@ -7,7 +7,7 @@ let counterOne = 1;
 let counterTow = 1;
 let counterThree = 1;
 
-document.write(`<h1> We hamve ${count} Admins</h1>`);
+document.write(`<h1> We have ${count} Admins</h1>`);
 
 mainLoop: for (let index = 0; index < myAdmin.length; index++) {
 
