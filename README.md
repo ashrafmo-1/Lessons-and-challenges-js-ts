@@ -7,5 +7,5 @@ ChallengeLoop elzero web school.
 - Add Team member
 
 # Loop-challenge-video #063
-Solve the challenge by If condition
-Solve the challenge by Ternary Conditional Operator
+- Solve the challenge by If condition
+- Solve the challenge by Ternary Conditional Operator
