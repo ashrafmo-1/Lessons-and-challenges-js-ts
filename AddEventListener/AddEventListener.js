@@ -23,6 +23,7 @@ const pargraph = document.querySelector("p")
 //     console.log("hi Scripting Ashraf for addEventListener")
 // })
 
+// // Examble One
 // pargraph.addEventListener("click", one);
 // pargraph.addEventListener("click", tow);
 
@@ -47,10 +48,9 @@ document.addEventListener("click", function (e) {
 
 const hoho = document.getElementsByClassName("hello")
 
-document.addEventListener("click", function (ele) {
-    if (ele.target.className === 'hello') {
+// document.addEventListener("click", function (ele) {
+//     if (ele.target.className === 'hello') {
 
-        console.log("ashraf Welcom")
-
-    }
-})
+//         console.log("ashraf Welcom")
+//     }
+// })
