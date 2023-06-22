@@ -21,6 +21,5 @@ ChallengeLoop elzero web school.
 - AddEventListener
  # Some challenges
 - Currency conversion from dollars to pounds
-- 
-- 
-- 
+- chalenge selectors (15 select items for One Div)
+- function-challenge-vid63
