@@ -23,3 +23,4 @@ ChallengeLoop elzero web school.
 - Currency conversion from dollars to pounds
 - chalenge selectors (15 select items for One Div)
 - function-challenge-vid63
+- Alt Attributes for image (domchalinge 5)
