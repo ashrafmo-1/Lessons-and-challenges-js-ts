@@ -36,13 +36,8 @@ myInp.style.textAlign = "center"
 
 
 // result style
-
 result.style.paddingInline = "10px"
 result.style.fontSize = "22px"
 result.style.fontWeight = "bolder"
 result.style.color = "red"
 All.style.textAlign = "center"
-
-// const allCenter = querySelector("body")
-
-// allCenter.style.
