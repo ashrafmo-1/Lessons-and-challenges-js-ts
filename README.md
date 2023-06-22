@@ -1,7 +1,7 @@
 # Challenge && Lessons javaSript
 ChallengeLoop elzero web school.
 
-#- allChalenge
+# - allChalenge
 - Add Count Admins
 - Add Number Admin
 - Add Count Team Admin
