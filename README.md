@@ -19,7 +19,8 @@ ChallengeLoop elzero web school.
 - Product With Title And Description
 - Object-nrstedObject
 - AddEventListener
-- 
+
+- Currency conversion from dollars to pounds
 - 
 - 
 - 
