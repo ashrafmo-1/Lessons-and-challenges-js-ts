@@ -1,6 +1,7 @@
 # Challenge && Lessons javaSript
 ChallengeLoop elzero web school.
 
+#- allChalenge
 - Add Count Admins
 - Add Number Admin
 - Add Count Team Admin
@@ -10,7 +11,7 @@ ChallengeLoop elzero web school.
 - Solve the challenge by If condition.
 - Solve the challenge by Ternary Conditional Operator.
 - Creat Object With Old Method
-- 
+- style by js
 - 
 - 
 - 
