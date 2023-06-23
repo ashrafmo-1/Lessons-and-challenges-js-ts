@@ -46,16 +46,6 @@ form[0].onsubmit = function (element) {
 };
 
 
-
-
-// let myEl = document.createElement(type.value);
-// let myText = document.createTextNode(text.value);
-
-// myEl.appendChild(myText);
-// results.appendChild(myEl);
-
-
-
 // styling value input
 const inputAll = document.querySelectorAll(".input")
 const submitBtn = document.querySelector("[type='submit']")
@@ -68,5 +58,17 @@ for (index = 0; index < inputAll.length; index++) {
     inputAll[index].style.padding = "1rem"
     inputAll[index].style.margin = "1rem auto"
     inputAll[index].style.border = "1px solid red"
+    inputAll[index].style.borderRadius = "10px"
     inputAll[index].style.outline = "none"
 }
+
+submitBtn.style.display = "block"
+submitBtn.style.margin = "1rem auto"
+submitBtn.style.width = "400px"
+submitBtn.style.borderRadius = "10px"
+submitBtn.style.padding = "10px"
+submitBtn.style.border = "none"
+submitBtn.style.backgroundColor = "black"
+submitBtn.style.color = "red"
+submitBtn.style.fontSize = "30px"
+submitBtn.style.cursor = "pointer"
