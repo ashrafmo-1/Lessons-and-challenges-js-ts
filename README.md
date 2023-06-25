@@ -25,3 +25,4 @@ ChallengeLoop elzero web school.
 - function-challenge-vid63
 - Alt Attributes for image (domchalinge 5)
 - create html && css by java script
+- setTimeout & setInterval
