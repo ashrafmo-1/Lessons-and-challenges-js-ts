@@ -27,3 +27,4 @@ ChallengeLoop elzero web school.
 - create html && css by java script
 - setTimeout & setInterval
 - remove paragraph & add two Div before and after
+- get text ih html by js
