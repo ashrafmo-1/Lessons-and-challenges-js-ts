@@ -26,3 +26,4 @@ ChallengeLoop elzero web school.
 - Alt Attributes for image (domchalinge 5)
 - create html && css by java script
 - setTimeout & setInterval
+- remove paragraph & add two Div before and after
