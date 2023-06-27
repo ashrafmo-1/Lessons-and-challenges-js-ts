@@ -28,3 +28,4 @@ ChallengeLoop elzero web school.
 - setTimeout & setInterval
 - remove paragraph & add two Div before and after
 - get text ih html by js
+- make popup for javascript only
