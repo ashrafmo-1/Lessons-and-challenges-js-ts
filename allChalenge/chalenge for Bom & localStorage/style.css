@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #cacaca;
+}
+
+.allChanger,
+.output {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.fontBox,
+.colorsBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(49, 49, 49);
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.fontBox p {
+    padding: 5px 20px;
+    font-size: 22px;
+    margin: 2px 10px;
+    color: #515151;
+}
+
+.fontBox p:hover {
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.colorsBox p {
+    margin: 10px;
+    padding: 15px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.red {
+    background-color: red;
+    opacity: 0.5;
+}
+
+
+
+.green {
+    background-color: green;
+    opacity: 0.5;
+}
+
+.Blue {
+    background-color: blue;
+    opacity: 0.5;
+}
+
+.Yellow {
+    background-color: yellow;
+    opacity: 0.5;
+}
+
+.Black {
+    background-color: black;
+    opacity: 0.5;
+}
+
+.White {
+    background-color: white;
+    opacity: 0.5;
+}
+
+.gold {
+    background-color: gold;
+    opacity: 0.5;
+}
+
+.active {
+    opacity: 1;
+}
+
+.output {
+    background-color: #ba1919;
+    width: fit-content;
+    margin: auto;
+    padding: 70px 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: rgb(176, 176, 176);
+}
