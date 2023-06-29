@@ -1,5 +1,4 @@
 /* select All Element */
-let allFonts = document.querySelectorAll(".fontBox p");
 let allColors = document.querySelectorAll(".colorsBox p");
 let boxChange = document.querySelector(".output")
 
@@ -32,5 +31,32 @@ allColors.forEach(function (co) {
         window.localStorage.setItem("colorChange", ele.currentTarget.dataset.color);
         // change location Color
         boxChange.style.backgroundColor = ele.currentTarget.dataset.color;
-    })
+    });
 });
+
+
+
+let allFonts = document.querySelector("#font");
+let sizeBox = document.querySelector("#sizeBox");
+
+
+// edit on box only /* font family */
+allFonts.onchange = function () {
+    window.localStorage.setItem("fontchange", allFonts.value)
+    boxChange.style.fontFamily = allFonts.value
+}
+// add dato to localStorage
+boxChange.style.fontFamily = window.localStorage.getItem('fontchange')
+// to pin select && never ralod changer
+allFonts.value = window.localStorage.getItem('fontchange')
+
+
+// edit on box only /* font size */
+sizeBox.onchange = function () {
+    window.localStorage.setItem("fontSize", sizeBox.value)
+    boxChange.style.fontSize = sizeBox.value
+}
+// add all data to localStorage
+boxChange.style.fontSize = window.localStorage.getItem("fontSize")
+// pin valu in box
+sizeBox.value = window.localStorage.getItem("fontSize")
