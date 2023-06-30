@@ -29,3 +29,4 @@ ChallengeLoop elzero web school.
 - remove paragraph & add two Div before and after
 - get text ih html by js
 - make popup for javascript only
+- add chalenge for Bom & localStorage for change color, change font, change fontSize
