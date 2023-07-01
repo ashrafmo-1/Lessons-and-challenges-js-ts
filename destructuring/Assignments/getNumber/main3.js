@@ -16,7 +16,5 @@ console.log(`My Age Is ${a} And Iam ${w ? "" : "Not"} Working`);
 console.log(`I Live in ${c}`);
 // // I Live in Egypt
 
-
-
 console.log(`My Hobbies: ${h1} And ${h3}`);
 // // My Hobbies: Reading And Programming
