@@ -25,7 +25,7 @@ console.log(iterator.next())
 // forEach
 newSet.forEach(function (el) {
     console.log(el)
-})
+});
 
 /* weakSet */
 // typyOf data
@@ -33,11 +33,7 @@ newSet.forEach(function (el) {
 const newWeakSet = new WeakSet([{ Ashraf: 1, Nadieh: 2 }])
 console.log(newWeakSet)
 
+
 /* weakSet not valed size Properties */
-
 // values + keys Alias
-
 // search from WeakSet Use Cases
-
-
-// Learn JavaScript In Arabic 2021 - #125 - 
