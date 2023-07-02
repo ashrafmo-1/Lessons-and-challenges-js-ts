@@ -19,6 +19,9 @@ ChallengeLoop elzero web school.
 - Product With Title And Description
 - Object-nrstedObject
 - AddEventListener
+- Set Data Types/properties & methods
+- make popup for javascript only
+
  # - Some challenges
 - Currency conversion from dollars to pounds
 - chalenge selectors (15 select items for One Div)
