@@ -1,4 +1,4 @@
-let chosen = 3;
+let chosen = 1;
 
 let myFriends = [
     { title: "Osama", age: 39, available: true, skills: ["HTML", "CSS"] },
