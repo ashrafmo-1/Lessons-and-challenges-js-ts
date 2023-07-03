@@ -20,9 +20,10 @@ console.log(Array.from(theName));
 console.log(Array.from("Osama"))
     // for Modern Function
 console.log(Array.from("12345", function(num) {
-        return +num + +num
-    }))
-    // for Arrow Function
+    return +num + +num
+}))
+
+// for Arrow Function
 console.log(Array.from("12345", (num) => +num + +num));
 
 // questions
@@ -33,10 +34,5 @@ console.log((set))
     // Convert Set to Array
 console.log(Array.from(set))
 
-// make Sprit Opirator for Future
+// make Spread Operator for Future
 console.log([...new Set(myArr)])
-
-function AfR() {
-    return Array.from(arguments)
-}
-console.log(AfR(100020003000))
