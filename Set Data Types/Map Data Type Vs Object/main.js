@@ -19,12 +19,14 @@ console.log(`length => ${length}`)
 console.log(OnjTEST[10]);
 console.log(OnjTEST["10"]);
 
+
 let myMapTEST = new Map()
 myMapTEST.set(10, "Ashraf")
 myMapTEST.set("10", "d3bs")
 myMapTEST.set(true, "haha")
 myMapTEST.set({ 1: 2, 5: 2 }, "obj")
-myMapTEST.set(function anything(ga) { }, "fun")
+myMapTEST.set(function anything(ga) {}, "fun")
+
 
 console.log(myMapTEST.get(10));
 console.log(myMapTEST.get("10"));
