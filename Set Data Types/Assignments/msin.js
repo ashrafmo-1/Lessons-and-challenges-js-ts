@@ -35,3 +35,11 @@ console.log(myMap.has('country'))
 // Map(3) { 'username' => 'Osama', 'role' => 'Admin', 'country' => 'Egypt' }
 // 3
 // true
+
+console.log(`======= assignment Five ======`)
+
+let theName = "Elzero";
+// Answer
+console.log(Array.from(theName))
+    // Needed Output
+    // ['E', 'l', 'z', 'e', 'r', 'o']
