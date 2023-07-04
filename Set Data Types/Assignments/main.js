@@ -1,9 +1,8 @@
 const newSet = new Set([10])
 
 // Answer
-console.log(newSet.add(20).size)
 console.log(newSet)
-
+console.log(newSet.add(20).size)
 
 
 console.log(`======= assignment Two ======`)
