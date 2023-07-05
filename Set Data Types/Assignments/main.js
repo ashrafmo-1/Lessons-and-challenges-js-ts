@@ -49,9 +49,24 @@ console.log(+[...new Set(theNumber.toString())].sort().slice(true).join(""))
 // 123
 
 console.log(`======= assignment Five ======`)
-
-let theName = "Elzero";
-// Answer
-console.log(Array.from(theName))
     // Needed Output
     // ['E', 'l', 'z', 'e', 'r', 'o']
+
+let theName = "Elzero";
+// Answer One
+console.log(Array.from(theName))
+
+// Answer Two
+let answerTwo = theName.split("")
+console.log(answerTwo)
+
+// Answer Three
+let answerThree = [...theName]
+console.log(answerThree)
+
+// Answer Four
+let answerFour = Object.assign([], theName)
+console.log(answerFour)
+    // Answer Five
+let answerFIve = [new Set(theName)]
+console.log(answerFIve)
