@@ -13,6 +13,20 @@ console.log(newArr)
 
 let nums = [10, 60, 400, 900]
 
+// use math Obj
 console.log(Math.max(...nums))
+console.log(Math.min(...nums))
 
 // use obj
+objOne = {
+    1: 10,
+    2: 20
+}
+
+objTwo = {
+    3: 30,
+    4: 40
+}
+
+// to marge objects
+console.log({...objOne, ...objTwo });
