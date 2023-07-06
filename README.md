@@ -35,3 +35,13 @@ ChallengeLoop elzero web school.
 - add chalenge for Bom & localStorage for change color, change font, change fontSize
 - add To DO chalange bom chalange
 - destructuring/Destructuring Arrays Part Three - Swap Variables
+- characrwe classes part-1
+- characrwe classes part-2
+- Quantifiers part-1
+- Quantifiers part-2
+- Quantifiers part-3
+- Regular Expressions modifiers
+- Regular Expressions Ranges part-1
+- Regular Expressions Ranges part-2
+- Replace With Pattern
+- Test Your Regular Expressions And Discussions
