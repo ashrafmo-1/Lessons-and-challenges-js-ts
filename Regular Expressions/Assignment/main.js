@@ -12,7 +12,12 @@ console.log(`=`.repeat(30));
 
 let phone = "+(995)-123 (4567)";
 let phoneRe = /(\D|\d)+/g;
+let phoneRe2 = /\+\(\d{3}\)-\d{3}\s\(\d{4}\)/g; // test two
 console.log(phone.match(phoneRe));
+console.log(phone.match(phoneRe2));
+console.log(`=`.repeat(30));
 
-let re = /https?:\/\/(?:[-\w]+\.)?([-\w]+)\.\w+(?:\.\w+)?\/?.*/i;
-let = "https:\\"
+// let link = "https://elzero.com"
+// let re = /https?:\/\/(?:[-\w]+\.)?([-\w]+)\.\w+(?:\.\w+)?\/?.*/ig;
+// console.log(link.match(re));
+// console.log(`=`.repeat(30));
