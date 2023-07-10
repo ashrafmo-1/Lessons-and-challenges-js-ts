@@ -2,28 +2,27 @@
 Encapsulation
 - Class Fields Are Public By Default
 - Guards The Data Against Illegal Access. (حمايه البيانات من الوصول اليها)
-- Helps To Achieve The Target Without Revealing Its Complex Details.
+- Helps To Achieve The Target Without Revealing Its Complex Details.  (يعمل  بدول ما يظخرلك اي بيانات)
 - Will Reduce Human Errors.
 - Make The App More Flexible And Manageable.
 - Simplifies The App
 */
 
 class User {
-    // private property
-    // fack private property
-    _id;
-    constructor(name, contry, id) {
+    // private proprty
+    _s;
+    constructor(name, contry, id, salary) {
         this.n = name;
         this.c = contry;
-        this._id = id
-    }
-    CaughtId() {
-        return parseInt(this._id)
+        this.id = id;
+        this._s = salary;
+    };
+    CaughtSalary() {
+        return parseInt(this._s);
     }
 }
 
 // Example experiment from Encapsulation
-
 class Admin extends User {
     constructor(name, contry, id, age) {
         super(name, contry, id);
@@ -31,17 +30,12 @@ class Admin extends User {
     }
 }
 
-let userOne = new User("Ashraf", "KSA", "313 EGP")
-let adminOne = new Admin("Osama", "EG", "313 EGP", 21)
+let userOne = new User("Ashraf", "KSA", "313 EGP");
+let adminOne = new Admin("Osama", "EG", "313 EGP", 21);
+
 
 console.log(userOne.n);
-console.log(userOne.c);
-console.log(userOne.CaughtId() * 0.3);
+console.log(userOne.CaughtSalary() * 0.3);
 
-console.log(adminOne.CaughtId() * 0.3);
+console.log(adminOne.CaughtSalary() * 0.3);
 console.log(adminOne.a);
-
-
-
-// let adminOne = new Admin(100, "Osama", "8000 Gneh", 1);
-// console.log(adminOne.getSalary() * 0.3); // 2400
