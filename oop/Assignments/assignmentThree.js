@@ -1,11 +1,16 @@
 // Edit The Class
 class User {
+    // private Card Property
+    _c;
     constructor(username, card) {
         this.u = username;
-        this.c = card;
+        this._c = card;
+    }
+    trueCardNumber() {
+        return this._c.toString().match(/\d{4}/g).join("-")
     }
     showData() {
-        return `Hello ${this.u} Your Credit Card Number ${this.c}`
+        return `Hello ${this.u} Your Credit Card Number ${this.trueCardNumber()}`
     }
 }
 
