@@ -46,3 +46,5 @@ ChallengeLoop elzero web school.
 - Replace With Pattern
 - Test Your Regular Expressions And Discussions
 - oop
+- Add To Prototype Chain
+- class Encapsulation
