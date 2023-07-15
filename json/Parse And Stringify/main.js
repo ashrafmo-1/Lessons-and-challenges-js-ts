@@ -17,5 +17,5 @@ jsObject["Id"] = 712;
 
 // convert jsObject TO JSONObject
 let JSObject = JSON.stringify(jsObject);
-console.log(typeof JSObject)
-console.log(JSObject)
+console.log(typeof JSObject);
+console.log(JSObject);
