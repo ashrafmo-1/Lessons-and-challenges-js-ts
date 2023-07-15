@@ -1,0 +1,24 @@
+[{
+        "String": "hi",
+        "number": 20,
+        "arrayNums&letters": [1, 2, 3, "a", "b"],
+        "arraySkills": ["js", "sass", "pugJs"],
+        "object": { "ashraf": 10, "nader": 11, "zeyad": 12 },
+        "boolean": true,
+        "null": null
+    },
+
+    {
+        "String": "hi",
+        "number": 20,
+        "arrayNums&letters": [1, 2, 3, "a", "b"],
+        "arraySkills": ["js", "sass", "pugJs"],
+        "object": {
+            "ashraf": 10,
+            "nader": 11,
+            "zeyad": 12
+        },
+        "boolean": true,
+        "null": null
+    }
+]
