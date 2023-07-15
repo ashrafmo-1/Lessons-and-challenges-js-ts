@@ -48,3 +48,9 @@ ChallengeLoop elzero web school.
 - oop
 - Add To Prototype Chain
 - class Encapsulation
+- data And time
+- Date And Time Introduction
+- Delegate generator
+- Formatting Date And Time
+- generating Infinite Number
+- Modules Import And Export
