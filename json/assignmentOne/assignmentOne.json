@@ -1,0 +1,36 @@
+[{
+        "id": 313,
+        "name": "momo",
+        "section": "Assignment0",
+        "address": "EG",
+        "Article": "fun"
+    },
+    {
+        "id": 314,
+        "name": "Ashraf",
+        "section": "Assignment1",
+        "address": "KSA",
+        "Article": "Sad"
+    },
+    {
+        "id": 313,
+        "name": "Osama",
+        "section": "Assignment2",
+        "address": "KSA",
+        "Article": "Sad"
+    },
+    {
+        "id": 313,
+        "name": "Osama",
+        "section": "Assignment3",
+        "address": "USA",
+        "Article": "Sad and fun"
+    },
+    {
+        "id": 313,
+        "name": "Ali",
+        "section": "Assignment4",
+        "address": "USA2",
+        "Article": "fun and sad"
+    }
+]
