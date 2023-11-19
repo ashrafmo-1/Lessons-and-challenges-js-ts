@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function doubleChar(str) {
+            return str.split('').map((ele) => ele.repeat(2)).join('');
+        }
+        console.log(doubleChar("String"));
+        console.log(doubleChar("Hello World"));
+        console.log(doubleChar("1234!_ "));
+    </script>
+</body>
+
+</html>
+
+<!--
+* "String"      -> "SSttrriinngg"
+* "Hello World" -> "HHeelllloo  WWoorrlldd"
+* "1234!_ "     -> "11223344!!__  " 
+-->

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function countPositivesSumNegatives(input) {
+            let count = 0;
+            let sum = 0;
+            let arr = [];
+            if (input === null || input.length == 0) {
+                return arr
+            } else {
+                input.map((m) => m > 0 ? count++ : sum += m)
+            }
+            return arr = [count, sum]
+
+            if (input === null || input.length == 0) return [];
+            let positiveCount = input.filter(x => x > 0).length;
+            let nigativeSums = input.filter((x) => x < 0).reduce((acc, curr) => acc + curr, 0);
+            return [positiveCount, nigativeSums];
+
+            // let positives = [];
+            // let sumNegatives = 0;
+            // for (let i = 0; i < input.length; i++) {
+            //     if (input[i] > 0) {
+            //         positives.push(input[i]);
+            //     } else {
+            //         sumNegatives += input[i];
+            //     }
+            // }
+            // return [positives.length, sumNegatives];
+
+
+
+            // let positivesFU = input.filter((x) => x > 0);
+            // let sumNegativesFU = input.filter((x) => x < 0).reduce((acc, curr) => acc + curr, 0);
+            // return [positivesFU.length, sumNegativesFU];
+        }
+        console.log(countPositivesSumNegatives([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15]));
+    </script>
+</body>
+
+</html>

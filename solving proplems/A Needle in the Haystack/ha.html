@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function findNeedle(haystack) {
+            for (let i = 0; i < haystack.length; i++) {
+                if (haystack[i] === 'needle') {
+                    return "found the needle at position " + i
+                }
+            }
+        }
+        console.log(findNeedle(["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"])) //"found the needle at position " + 5
+        console.log(findNeedle(["hay", "junk", "hay", "hay", "moreJunk", , "randomJunk", "needle"])) // "found the needle at position " + 7
+
+        let arr = ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"]
+        console.log(arr.indexOf('needle'));
+    </script>
+</body>
+
+</html>

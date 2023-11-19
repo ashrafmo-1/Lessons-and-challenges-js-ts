@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function squareOrSquareRoot(array) {
+            // let arr = [];
+            // for (var i = 0; i < array.length; i++) {
+            //     if (Number.isInteger(Math.sqrt(array[i]))) {
+            //         arr.push(Math.sqrt(array[i]));
+            //     } else {
+            //         arr.push(array[i] * array[i]);
+            //     }
+            // }
+            // return arr;
+
+
+            // return array.map((number) => Number.isInteger(Math.sqrt(number)) ?
+            //     array.push(Math.sqrt(number)) :
+            //     array.push(number * number));
+
+
+            return array.map((number) => Number.isInteger(Math.sqrt(number)) ? Math.sqrt(number) : number * number);
+        }
+
+        console.log(squareOrSquareRoot([4, 3, 9, 7, 2, 1]));
+    </script>
+</body>
+
+</html>
