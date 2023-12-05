@@ -42,3 +42,8 @@ console.log(splitSTR.split(',').join(' ').toString().toLocaleUpperCase());
 let js = 'javascript language';
 // console.log(js.replace('language', 'programming language'));
 console.log(js.replaceAll('javascript language', 'replace all string'));
+
+// chick if text end with this
+let STRING = 'programming'
+console.log(STRING.endsWith('g')); // true
+console.log(STRING.endsWith('x')); // false
