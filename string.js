@@ -47,3 +47,5 @@ console.log(js.replaceAll('javascript language', 'replace all string'));
 let STRING = 'programming'
 console.log(STRING.endsWith('g')); // true
 console.log(STRING.endsWith('x')); // false
+// encluding
+console.log(STRING.includes('p', 0));
