@@ -1,6 +1,9 @@
 # Challenge && Lessons javaSript
 ChallengeLoop elzero web school.
 
+- numbers
+- strings
+- arrays
 - If & else
 - loop
 - Function
