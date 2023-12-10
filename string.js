@@ -4,7 +4,7 @@ let stringValue = 'HELLO WORLED';
 // let x = stringValue.charAt(11);
 
 
-let commaString = 'a,s,h,r,a,f';
+let commaString = 'a,s,g,h,r,a,f';
 let x = commaString.split(',').join('');
 console.log(x);
 
@@ -27,7 +27,7 @@ console.log(subStr.substring(0, 4));
 
 let sliceStr = 'javascript';
 console.log(sliceStr.slice(0, ));
-console.log(sliceStr.slice(0, -1)); // not encoding end
+console.log(sliceStr.slice(0, -1)); // not including end
 console.log(sliceStr.slice( -6));
 
 let upperStr = 'javascript';
