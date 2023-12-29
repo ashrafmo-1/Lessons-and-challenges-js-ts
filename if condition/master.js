@@ -12,7 +12,6 @@ if (n2 > n1 && n2 === n1 && n2 != n1) {
     // console.log('dont have any operator');
 }
 
-
 // start operations
 /*
 +
@@ -35,7 +34,6 @@ let minus = 1000 - 100 - 40
 console.log('sum is', sum);
 console.log(`sum is ${sum}`);
 console.log(`minus is ${minus}`);
-
 
 console.log(100 > 20);
 console.log(100 < 20);
