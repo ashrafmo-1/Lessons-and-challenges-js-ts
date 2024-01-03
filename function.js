@@ -41,4 +41,29 @@ function generateYears(start, end, notPrint) {
     }
 }
 
+
 generateYears(1982, 2000, 1999);
+
+// arrrow functions
+const arrow = (name) => {
+    console.log(`hello ${name}`);
+}
+
+arrow('ahraf')
+
+const sum = (n1, n2) => {
+    console.log('#'.repeat(20));
+    console.log(n1 + n2);
+}
+
+sum(10, 2)
+
+const returnFun = (numOne, numTwo) =>  numOne - numTwo;
+console.log(returnFun(10, 2));
+
+// start fumction with return
+function sumExampleTwo(nOne , nTwo) {
+    return nOne + nTwo
+}
+
+console.log(sumExampleTwo(100, 50));
