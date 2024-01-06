@@ -1,7 +1,5 @@
 let products = ["Keyboard", "Mouse", "Pen", "Pad", "Monitor"];
-
 let colors = ["Red", "Green", "Black"];
-
 let models = [2020, 2021];
 
 for (let i = 0; i < products.length; i++) {
@@ -15,3 +13,10 @@ for (let i = 0; i < products.length; i++) {
         console.log(`    ->${models[j]}`);
     }
 }
+
+
+
+let productsTwo = []; // <== add 10 product
+let model = []; // <== add 5 model
+let companyMake = []; // <== add 4 company
+let color = []; // <== add 6 colors

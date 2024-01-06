@@ -14,8 +14,7 @@ function User(name, id, salary) {
     this.n = name;
     this.i = id;
     this.sal = salary + 5000; // add Reward Mony
-};
-*/
+}; */
 
 class User {
     constructor(name, id, salary) {
@@ -33,13 +32,9 @@ console.log(userOne.n);
 console.log(userOne.i);
 console.log(userOne.sal);
 
-console.log(`$$$$$$$$$$$$$$$$$$$$$$$`);
-
 console.log(userTwo.n);
 console.log(userTwo.i);
 console.log(userTwo.sal);
-
-console.log(`$$$$$$$$$$$$$$$$$$$$$$$`);
 
 console.log(userThree.n);
 console.log(userThree.i);
@@ -47,5 +42,5 @@ console.log(userThree.sal);
 
 /* To Chick */
 
-console.log(userOne instanceof User)
-console.log(userOne.constructor === User)
+console.log(userOne instanceof User);
+console.log(userOne.constructor === User);
