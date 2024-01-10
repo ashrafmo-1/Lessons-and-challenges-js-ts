@@ -67,3 +67,14 @@ function sumExampleTwo(nOne , nTwo) {
 }
 
 console.log(sumExampleTwo(100, 50));
+
+function generate(start, end) {
+    for (let i = start; i <= end; i++) {
+        if (i === 15) {
+        return `Interrupting`;
+        }
+        console.log(i);
+    }
+}
+
+generate(10, 20);
