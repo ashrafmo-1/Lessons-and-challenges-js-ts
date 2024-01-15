@@ -24,6 +24,6 @@ class Administrator extends Admin{
 // Persons
 let userOne = new Persons(0, 'ASH', 21);
 // Administrator
-let adminOne = new Admin(1, 'shenoo', 22, true)
+let adminOne = new Admin(1, 'shenoo', 22, true);
 // Administrators
-let ad = new Administrator(1001, 'khaled', 30, false, 'max')
+let ad = new Administrator(1001, 'khaled', 30, false, 'max');
