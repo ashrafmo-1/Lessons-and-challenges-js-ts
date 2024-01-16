@@ -19,7 +19,7 @@ Object.defineProperty(myObject, 'c', {
     value: 12
 })
 
-myObject.c = 100
+myObject.c = 100;
 console.log(delete myObject.c);
 
 for(let x in myObject) {
