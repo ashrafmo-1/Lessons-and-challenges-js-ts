@@ -18,7 +18,6 @@ Class Inheritance
 
 lesson seven
     Class Encapsulation {
-    /*
       Encapsulation
       - Class Fields Are Public By Default
       - Guards The Data Against Illegal Access.
@@ -26,7 +25,6 @@ lesson seven
       - Will Reduce Human Errors.
       - Make The App More Flexible And Manageable.
       - Simplifies The App.
-    */
   }
 
 
@@ -35,7 +33,11 @@ lesson eight
 Prototype Introduction
 
 lesson nine
-Add To Prototype Chain
+  Add To Prototype Chain {
+    Prototype
+      - Add To Prototype Chain
+      - Extend Built In Constructors Features
+  }
 
 lesson ten
 Object Meta Data And Descriptor Part 1
