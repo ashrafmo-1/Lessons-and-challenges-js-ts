@@ -4,7 +4,7 @@ const myObj = {
     score: 1000,
     country: "Egypt",
 };
-
+// Write Your Code Here
 Object.defineProperty(myObj, "score", {
     writable: false,
     enumerable: true,
@@ -19,7 +19,7 @@ Object.defineProperty(myObj, "id", {
 
 console.log(delete myObj.country)
 
-// Write Your Code Here
+
 
 
 myObj.score = 500;

@@ -6,20 +6,16 @@ const myObj = {
 };
 
 // Write Your Code Here
-Object.defineProperties(myObj, {
-    'username': {
-        enumerable: false,
-    },
-    'id': {
-        enumerable: false,
-    },
-    'score': {
-        enumerable: false,
-    },
-    'country': {
-        enumerable: false,
-    },
+Object.defineProperty(myObj, 'score', {
+        writable: false,
 });
+
+Object.defineProperty(myObj, 'id', {
+    enumerable: false,
+})
+
+delete myObj.country;
+
 
 myObj.score = 500;
 
