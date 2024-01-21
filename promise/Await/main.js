@@ -3,8 +3,8 @@
 
 let promise = new Promise((resolve, reject) => {
     setTimeout((s) => {
-        // resolve("midle Promise")
-        reject(Error("midle Promise"))
+        resolve("midle Promise")
+        // reject(Error("midle Promise"))
     }, 2000);
 });
 

@@ -21,31 +21,34 @@
 
 // ===================================================================================================
 // function getdata() {
-//     let person = ["Ashraf"]
+//     let person = []
 //     if (person.length > 0) {
 //         return Promise.resolve("person Avaled");
 //     } else {
-//         return Promise.reject(Error("person NotAvaled"));
+//         return Promise.reject(Error("person Not Avaled"));
 //     };
 // };
 // getdata().then(
 //     (resloveValu) => console.log(resloveValu),
-//     (rejectValu) => console.log(rejectValu)
+//     (rejectValu) => console.Error(rejectValu)
 // );
 // ==================================================================================================
 
 /* (async) => convert Function to Promise */
 async function getdata() {
-    let person = ["Ashraf"]
-    if (person.length > 5) {
+    let person = []
+    if (person.length > 0) {
         return ("person Avaled");
     } else {
         throw new Error("person NotAvaled");
     };
 };
 console.log(getdata())
+
+
+getdata().then(
+    (resloveValu) => console.log(resloveValu),
+    (rejectValu) => console.log(rejectValu)
+);
+
 getdata().catch((rej) => console.log(rej))
-    // getdata().then(
-    //     (resloveValu) => console.log(resloveValu),
-    //     (rejectValu) => console.log(rejectValu)
-    // );
