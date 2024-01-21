@@ -1,10 +1,10 @@
 // Edit The Class
 class User {
     // private Card Property
-    _c;
+    #c;
     constructor(username, card) {
         this.u = username;
-        this._c = card;
+        this.#c = card;
     }
     trueCardNumber() {
         return this._c.toString().match(/\d{4}/g).join("-")

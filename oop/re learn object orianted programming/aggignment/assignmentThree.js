@@ -1,5 +1,3 @@
-
-
 // Edit The Class
 class User {
     #c
@@ -7,13 +5,15 @@ class User {
         this.u = username;
         this.#c = card;
     }
-    showData() {
-        return `Hello ${this.u} Your Credit Card Number Is ${this.u}`
+    card() {
+        return this.#c.toString().match(/\d{4}/g).join('-');
+    }
+    get showData() {
+        return `Hello ${this.u} Your Credit Card Number Is ${this.card()}`
     }
 }
 
 // Do Not Edit Anything Below
-
 let userOne = new User("Osama", "1234-5678-1234-5678");
 let userTwo = new User("Ahmed", "1234567812345678");
 let userThree = new User("Ghareeb", 1234567812345678);
