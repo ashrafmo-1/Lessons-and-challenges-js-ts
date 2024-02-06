@@ -2,7 +2,7 @@ class Jaguars {
     // private property
     #price
     constructor(id, t3m, phone, price) {
-        this.id = id;
+        this.i = id;
         this.t = t3m;
         this.p = phone;
         this.#price = price;
