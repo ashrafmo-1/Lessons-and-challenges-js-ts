@@ -15,7 +15,6 @@ for (let i = 0; i < products.length; i++) {
 }
 
 
-
 let productsTwo = []; // <== add 10 product
 let model = []; // <== add 5 model
 let companyMake = []; // <== add 4 company
