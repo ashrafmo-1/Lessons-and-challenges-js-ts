@@ -1,5 +1,5 @@
 # Challenge && Lessons javaSript
-ChallengeLoop elzero web school.
+ > ChallengeLoop elzero web school.
 
 - numbers
 - strings
@@ -25,7 +25,7 @@ ChallengeLoop elzero web school.
 - Set Data Types/properties & methods
 - make popup for javascript only
 
- # - Some challenges
+ > Some challenges
 - Currency conversion from dollars to pounds
 - chalenge selectors (15 select items for One Div)
 - function-challenge-vid63
