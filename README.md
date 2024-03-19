@@ -60,4 +60,4 @@
 - codewors
 
  > repo features
-> MIT license
+- MIT license
