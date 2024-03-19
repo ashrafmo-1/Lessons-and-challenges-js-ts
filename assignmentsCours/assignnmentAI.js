@@ -1,14 +1,30 @@
-// 2* Write a function that takes two numbers as arguments and returns their sum.
-const sum = (n1, n2) => {
-  return n1 + n2;
-}
-console.log(sum(19, 1));
+/*
+  =============================
+  == built in function using ==
+  =============================
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+  *
+*/
 
 // 1* Create a function that takes a string and returns its length.
 const len_str = (str) => {
   return str.length
 }
 console.log(len_str('ashraf'));
+
+// 2* Write a function that takes two numbers as arguments and returns their sum.
+const sum = (n1, n2) => {
+  return n1 + n2;
+}
+console.log(sum(19, 1));
 
 // 3* Write a function that takes an array of numbers and returns the sum of all the numbers in the array.
 const sumNumbersArr = (arr) => {
@@ -124,14 +140,47 @@ const average = (array) => {
 }
 console.log(average([1,2,2,2,3,5,6,7,7,7,7,7]));
 
-// 13* Write a function that takes a number and returns its factorial.
-
-
+// 13* Write a function that takes a number and returns its factorial. // search more example
+const factorial = (n) => {
+  if (n === 0 || n === 1) {
+    return 1;
+  }
+  for (let index = n - 1; index >= 1; index--) {
+    n *= index;
+  }
+  return n
+}
+console.log(factorial(10));
 
 // 14* Create a function that takes an array of strings and returns a new array with the strings capitalized.
+const array_strings = (arr) => {
+  return arr.join(' ').toUpperCase().split(' ')
+}
+
+console.log(array_strings(["ashraf", "osama", "elkwawy", "shino"]));
+
 // 15* Write a function that takes a string and checks if it's a palindrome.
+
+const isPalindrome = (string) => {
+  let reverse = string.split('').reverse().join('')
+  return string === reverse
+}
+console.log(isPalindrome("madam"));
+console.log(isPalindrome("lol"));
+console.log(isPalindrome("world"));
+console.log(isPalindrome("فاف"));
+
 // 16* Create a function that takes an array of numbers and returns a new array with the numbers sorted in ascending order.
+const ascendingSortedNumber = (arr) => {
+  return arr.sort((x, y) => x - y)
+}
+console.log(ascendingSortedNumber([9,2,4,6,1,3,5,7,8]));
+
 // 17* Write a function that takes a number and returns an array of its digits.
+const getDigits = (nums) => {
+  return nums.toString().split('').map(Number)
+}
+console.log(getDigits(98765));
 // 18* Create a function that takes an array of strings and returns a new array with only the strings that have more than 5 characters.
 // 19* Write a function that takes a string and returns the number of words in it.
 // 20* Create a function that takes an array of numbers and returns the median value.
