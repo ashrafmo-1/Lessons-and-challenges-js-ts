@@ -15,10 +15,6 @@
 // // Closest Number Is 88
 
 
-
-
-
-
 // let closest = nums.reduce((prev, curr) => {
 //   return (Math.abs(curr - goal) < Math.abs(prev - goal) ? curr : prev);
 // });
