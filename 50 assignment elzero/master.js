@@ -85,17 +85,51 @@ for (let i = 0; i < nums.length; i++) {
   }
 }
 console.log(`Closest Number Is ${num}`);
-
-
-
-
-
-
-
-
-
-
-
+/**===================================================================================**/
+/* ===== assignment #9 ===== */
+function swapEveryTwoChars(str) {
+  // Your Code Here
+  let swap = "";
+  for (let i = 0; i < str.length; i++) {
+    if (i % 2 === 0) {
+      swap += str[i] === str[i].toUpperCase() ? str[i].toLowerCase() : str[i].toUpperCase();
+      // if (swap += str[i] === str[i].toUpperCase()) {
+      //   return str[i].toLowerCase()
+      // } else{
+      //   return str[i].toUpperCase();
+      // }
+    } else {
+      swap += str[i];
+    }
+  }
+  return swap;
+}
+console.log(swapEveryTwoChars("elZeRo")); // Elzero
+console.log(swapEveryTwoChars("heLlO")); // Hello
+/**===================================================================================**/
+/* ===== assignment #9 ===== */
+// Write Your Function Implementation Here
+/**=========================example one========================================**/
+function elzeroRepeat(text, repeatCount) {
+  let repeatedText = '';
+  for (let i = 0; i < repeatCount; i++) {
+    repeatedText += text;
+  }
+  return repeatedText;
+}
+/**=========================example two========================================**/
+String.prototype.elzeroRepeat = function(times) {
+  let result = '';
+  for (let i = 0; i < times; i++) {
+    result += this;
+  }
+  return result;
+};
+/**=========================example three========================================**/
+String.prototype.elzeroRepeat = function(n) {
+  return this.repeat(n);
+};
+console.log("Elzero ".elzeroRepeat(3)); // Elzero Elzero Elzero
 
 
 

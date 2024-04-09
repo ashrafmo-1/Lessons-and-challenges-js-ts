@@ -21,4 +21,23 @@
 // console.log(`Closest Number Is ${closest}`);
 
 
+String.prototype.elzeroRepeat = function(times) {
+  let result = '';
+  for (let i = 0; i < times; i++) {
+    result += this;
+  }
+  return result;
+};
 
+String.prototype.elzeroRepeat = function(n) {
+  return this.repeat(n);
+};
+
+
+console.log("Elzero ".elzeroRepeat(3)); // Elzero Elzero Elzero
+
+
+// Define elzeroRepeat function
+
+// Test the function
+console.log("Hello ".elzeroRepeat(3)); // Output: Hello Hello Hello
