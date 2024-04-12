@@ -107,7 +107,7 @@ function swapEveryTwoChars(str) {
 console.log(swapEveryTwoChars("elZeRo")); // Elzero
 console.log(swapEveryTwoChars("heLlO")); // Hello
 /**===================================================================================**/
-/* ===== assignment #9 ===== */
+/* ===== assignment #10 ===== */
 // Write Your Function Implementation Here
 /**=========================example one========================================**/
 function elzeroRepeat(text, repeatCount) {
@@ -130,12 +130,23 @@ String.prototype.elzeroRepeat = function(n) {
   return this.repeat(n);
 };
 console.log("Elzero ".elzeroRepeat(3)); // Elzero Elzero Elzero
+/**===================================================================================**/
+/* ===== assignment #11 ===== */
 
-
-
-
-
-
+let myMoney = 5301503206; // need output => {5,301,503,206}
+/**=========================example one========================================**/
+console.log(myMoney.toLocaleString());
+/**=========================example two========================================**/
+let myMoneyString = "";
+let myMoneyArray = myMoney.toString().split("").reverse();
+// console.log(myMoneyArray);
+for (let i = 0; i < myMoneyArray.length; i++) {
+  if (i % 3 === 0 && i !== 0) {
+    myMoneyString = "," + myMoneyString;
+  }
+  myMoneyString = myMoneyArray[i] + myMoneyString;
+}
+console.log(myMoneyString);
 
 
 
@@ -178,3 +189,18 @@ let arr = ["a", "d", "f"];
 // let newArr = arr.concat(Array(5).fill("x"));
 // newArr.push('a')
 // console.log(arr);
+
+/**===================================================================================**/
+/* ===== assignment #50 ===== */
+function createStars(num) {
+  let pattern = '';
+  for (let i = num; i >= 1; i--) {
+    pattern += ' '.repeat(num - i) + '*'.repeat(i * 2 - 1) + '\n';
+  }
+  for (let i = 2; i <= num; i++) {
+    pattern += ' '.repeat(num - i) + '*'.repeat(i * 2 - 1) + '\n';
+  }
+  return pattern;
+}
+
+console.log(createStars(6));
