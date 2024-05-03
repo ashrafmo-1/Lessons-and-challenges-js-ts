@@ -11,7 +11,6 @@ console.log(x);
 let str = "Hello";
 console.log(str.charCodeAt(1)); // Output: 101
 
-
 // Merge two strings
 let STRONE = 'HELLO';
 let STRTWO = 'JS';
