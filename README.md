@@ -1,65 +1,39 @@
-# Challenge && Lessons javaSript
- > ChallengeLoop elzero web school.
+<h1 align="center">lessons and problem solving</h1>
 
-- numbers
-- strings
-- arrays
-- If & else
-- loop
-- Function
-- DOm
-- allChalenge
-- Add Count Admins
-- Add Number Admin
-- Add Count Team Admin
-- Add Team member
-- Arrow-function
-- Loop-challenge-video #063 Elzero Web School;
-- Solve the challenge by If condition.
-- Solve the challenge by Ternary Conditional Operator.
-- Creat Object With Old Method
-- style by js
-- Product With Title And Description
-- Object-nrstedObject
-- AddEventListener
-- Set Data Types/properties & methods
-- make popup for javascript only
+<p align="center">javaScript and typeScript lessons, exampels to learn and problem solving</p>
+## javaScript && typeScript
 
- > Some challenges
-- Currency conversion from dollars to pounds
-- chalenge selectors (15 select items for One Div)
-- function-challenge-vid63
-- Alt Attributes for image (domchalinge 5)
-- create html && css by java script
+ - [javascript-bootcamp elzero](https://elzero.org/study/javascript-bootcamp-2021-study-plan/)
+ - [typescript-study-plan](https://elzero.org/study/typescript-study-plan/)
+ - [javascript assignments](https://elzero.org/category/assignments/javascript-bootcamp-assignments/)
+ - [typescript assignments](https://elzero.org/typescript-assignments-lessons-from-1-to-11/)
+ - [33-js-concepts](https://github.com/leonardomso/33-js-concepts)
+<br/>
+<br/>
+Lessons names solved problems:
+#### Lessons
+
+- data types > numbers, strings, boolean, arrays, object.
+- variables.
+- If & else statment.
+- loop > for, while, do while.
+- Function - Arrow-function.
 - setTimeout & setInterval
-- remove paragraph & add two Div before and after
-- get text ih html by js
-- make popup for javascript only
-- add chalenge for Bom & localStorage for change color, change font, change fontSize
-- add To DO chalange bom chalange
-- destructuring/Destructuring Arrays Part Three - Swap Variables
-- characrwe classes part-1
-- characrwe classes part-2
-- Quantifiers part-1
-- Quantifiers part-2
-- Quantifiers part-3
+- AddEventListener
+- Dom
+- Bom
 - Regular Expressions modifiers
-- Regular Expressions Ranges part-1
-- Regular Expressions Ranges part-2
-- Replace With Pattern
-- Test Your Regular Expressions And Discussions
 - oop
-- Add To Prototype Chain
-- class Encapsulation
-- data And time
-- Date And Time Introduction
-- Delegate generator
-- Formatting Date And Time
-- generating Infinite Number
-- Modules Import And Export
-- codewors
 
- > repo features
-- MIT license
-- one admin > ashraf mohamed
-- chalange
+#### solved problems names
+- Loop-challenge-video #063 Elzero Web School;
+- function-challenge-vid63
+- chalenge selectors (15 select items for One Div)
+- create html && css by java script
+
+<br/>
+<br/>
+<br/>
+## Feedback
+
+If you have any feedback, please reach out to us at ashraf.qopiah@gmail.com
