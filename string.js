@@ -1,4 +1,4 @@
-// string
+// string == text
 let stringValue = 'HELLO WORLED';
 // let x = stringValue.charAt(1); // cut letter form the string and can you used in any any thing
 // let x = stringValue.charAt(11);
@@ -10,7 +10,6 @@ console.log(x);
 
 let str = "Hello";
 console.log(str.charCodeAt(1)); // Output: 101
-
 
 // Merge two strings
 let STRONE = 'HELLO';

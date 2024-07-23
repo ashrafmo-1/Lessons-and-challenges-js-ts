@@ -85,23 +85,68 @@ for (let i = 0; i < nums.length; i++) {
   }
 }
 console.log(`Closest Number Is ${num}`);
+/**===================================================================================**/
+/* ===== assignment #9 ===== */
+function swapEveryTwoChars(str) {
+  // Your Code Here
+  let swap = "";
+  for (let i = 0; i < str.length; i++) {
+    if (i % 2 === 0) {
+      swap += str[i] === str[i].toUpperCase() ? str[i].toLowerCase() : str[i].toUpperCase();
+      // if (swap += str[i] === str[i].toUpperCase()) {
+      //   return str[i].toLowerCase()
+      // } else{
+      //   return str[i].toUpperCase();
+      // }
+    } else {
+      swap += str[i];
+    }
+  }
+  return swap;
+}
+console.log(swapEveryTwoChars("elZeRo")); // Elzero
+console.log(swapEveryTwoChars("heLlO")); // Hello
+/**===================================================================================**/
+/* ===== assignment #10 ===== */
+// Write Your Function Implementation Here
+/**=========================example one========================================**/
+function elzeroRepeat(text, repeatCount) {
+  let repeatedText = '';
+  for (let i = 0; i < repeatCount; i++) {
+    repeatedText += text;
+  }
+  return repeatedText;
+}
+/**=========================example two========================================**/
+String.prototype.elzeroRepeat = function(times) {
+  let result = '';
+  for (let i = 0; i < times; i++) {
+    result += this;
+  }
+  return result;
+};
+/**=========================example three========================================**/
+String.prototype.elzeroRepeat = function(n) {
+  return this.repeat(n);
+};
+console.log("Elzero ".elzeroRepeat(3)); // Elzero Elzero Elzero
+/**===================================================================================**/
+/* ===== assignment #11 ===== */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+let myMoney = 5301503206; // need output => {5,301,503,206}
+/**=========================example one========================================**/
+console.log(myMoney.toLocaleString());
+/**=========================example two========================================**/
+let myMoneyString = "";
+let myMoneyArray = myMoney.toString().split("").reverse();
+// console.log(myMoneyArray);
+for (let i = 0; i < myMoneyArray.length; i++) {
+  if (i % 3 === 0 && i !== 0) {
+    myMoneyString = "," + myMoneyString;
+  }
+  myMoneyString = myMoneyArray[i] + myMoneyString;
+}
+console.log(myMoneyString);
 
 
 
@@ -144,3 +189,18 @@ let arr = ["a", "d", "f"];
 // let newArr = arr.concat(Array(5).fill("x"));
 // newArr.push('a')
 // console.log(arr);
+
+/**===================================================================================**/
+/* ===== assignment #50 ===== */
+function createStars(num) {
+  let pattern = '';
+  for (let i = num; i >= 1; i--) {
+    pattern += ' '.repeat(num - i) + '*'.repeat(i * 2 - 1) + '\n';
+  }
+  for (let i = 2; i <= num; i++) {
+    pattern += ' '.repeat(num - i) + '*'.repeat(i * 2 - 1) + '\n';
+  }
+  return pattern;
+}
+
+console.log(createStars(6));
